@@ -18,3 +18,9 @@ while (flood < 6) {
 	console.log("Gail's flooded ", flood + "  times and she's pissed");
 	flood = flood + 1;
 }
+var fights = 1;
+while (fights < 8) {
+	console.log(" you were the toughest guy in letter kenny but now yove got to fight to prove it");
+	console.log(" this is fight number", fights + " knock him out");
+	fights= fights + 1;
+} 
