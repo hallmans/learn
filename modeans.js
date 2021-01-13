@@ -1,4 +1,6 @@
 var fire = 1;
+	/* loop for multiple fires
+	*/
 
 while (fire < 11) {
 	
@@ -8,11 +10,12 @@ while (fire < 11) {
 	 console.log("Modean's is covered under insurance, get a beer!");
 	}
 	else if (fire > 7) {
-		 //only fires 3,4,5,6,7
+		//only fires 7,8,9,10
 		console.log(" under investgation")
 	 }
 
 	else {
+		 //only fires 3,4,5,6,7
 		console.log("Modean's is NOT covered under insurance, go to the liquor store. ");
 	}
 	fire = fire + 1;
