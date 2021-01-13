@@ -1,16 +1,29 @@
 var fire = 1;
 
 while (fire < 11) {
-	if (fire < 3){
-		console.log("Butter face. Eveerything looks good butterface; keep it COVERED");
-	}
 	
 	console.log("This is modeans #", fire ,"ferda ");
 
+	if (fire < 3){
+		console.log("Modean's is covered under insurance, get a beer!");
+	}
+	else {
+		console.log("Modean's is NOT covered under insurance, go to the liquor store. ");
+	}
 	fire = fire + 1;
 
 }
-console.log(" wow that's how many fires? like", fire);
+
+
+
+
+
+
+
+
+
+
+/*console.log(" wow that's how many fires? like", fire);
 
 console.log("Modean's keeps burning down, we are going to rename it Gail's");
 
@@ -26,4 +39,4 @@ while (fights < 8) {
 	console.log(" you were the toughest guy in letter kenny but now yove got to fight to prove it");
 	console.log(" this is fight number", fights + " knock him out");
 	fights= fights + 1;
-} 
+} */
