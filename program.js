@@ -5,4 +5,4 @@ console.log("allegedly");
 console.log("You're made of spare parts, aren't ya bud?");
 console.log("And i suggest you let that one marinate.");
 console.log("Oh, get off the cross, we need the wood.");
-
+console.log("it's SUSHIS AND SUSHEMI'S");
