@@ -5,8 +5,12 @@ while (fire < 11) {
 	console.log("This is modeans #", fire ,"ferda ");
 
 	if (fire < 3){
-		console.log("Modean's is covered under insurance, get a beer!");
+	 console.log("Modean's is covered under insurance, get a beer!");
 	}
+	else if (fire > 7) {
+		console.log(" under investgation")
+	}
+
 	else {
 		console.log("Modean's is NOT covered under insurance, go to the liquor store. ");
 	}
