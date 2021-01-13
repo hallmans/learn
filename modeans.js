@@ -1,7 +1,10 @@
 var fire = 1;
 
 while (fire < 11) {
-
+	if (fire < 3){
+		console.log("Butter face. Eveerything looks good butterface; keep it COVERED");
+	}
+	
 	console.log("This is modeans #", fire ,"ferda ");
 
 	fire = fire + 1;
