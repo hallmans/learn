@@ -7,3 +7,5 @@ while (fire < 11) {
 	fire = fire + 1;
 
 }
+console.log(" wow that's how many fires? like", fire);
+
