@@ -1,13 +1,14 @@
-var fire = 1;
-	/* loop for multiple fires
-	*/
+/*
+ * loop for multiple fires
+*/
 
+var fire = 1;
 while (fire < 11) {
 	
 	console.log("This is modeans #", fire ,"ferda ");
 
 	if (fire < 3){
-	 console.log("Modean's is covered under insurance, get a beer!");
+		 console.log("Modean's is covered under insurance, get a beer!");
 	}
 	else if (fire > 7) {
 		//only fires 7,8,9,10
