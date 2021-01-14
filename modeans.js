@@ -6,25 +6,25 @@ var fire = 1;
 var ai = false;
 while (fire < 11) {
 	
-	console.log("This is modeans #", fire ,"ferda ");
+	console.log("\n --> This is modeans #", fire ,"ferda!");
 
 	if (fire < 3){
 		 console.log("Modean's is covered under insurance, get a beer!");
 	}
 	else if (fire > 7) {
 		//only fires 8,9,10
-		if (ai == true) {
-			console.log(" you're already under investigation");
-		} else {
+		
+		if (ai == true) {  //runs for 9,10
+			console.log("You're already under investigation");
+		} else { // runs for 8
 			ai = true;
-			console.log(" starting new  investgation")
+			console.log("Starting a new investgation")
 		}
 	 }
 	else if (fire == 5) { 
-		console.log(" police have been notified")
-		
-	} 
+		console.log("Police have been notified")
 
+	} 
 	else {
 		 //only fires 3,4,5,6,7
 		console.log("Modean's is NOT covered under insurance, go to the liquor store. ");
