@@ -3,6 +3,7 @@
 */
 
 var fire = 1;
+var ai = false;
 while (fire < 11) {
 	
 	console.log("This is modeans #", fire ,"ferda ");
@@ -11,9 +12,18 @@ while (fire < 11) {
 		 console.log("Modean's is covered under insurance, get a beer!");
 	}
 	else if (fire > 7) {
-		//only fires 7,8,9,10
-		console.log(" under investgation")
+		//only fires 8,9,10
+		if (ai == true) {
+			console.log(" you're already under investigation");
+		} else {
+			ai = true;
+			console.log(" starting new  investgation")
+		}
 	 }
+	else if (fire == 5) { 
+		console.log(" police have been notified")
+		
+	} 
 
 	else {
 		 //only fires 3,4,5,6,7
