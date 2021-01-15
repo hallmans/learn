@@ -4,9 +4,17 @@ function deposit(amt) {
 	console.log("deposit", amt, "new balance", checking);
 	return checking;
 }
+
 function withdraw(amt) {
-	checking = checking - amt;
-	console.log("withdraw", amt, "new balance", checking);
+	
+	
+	if(amt > checking) {
+		console.log("insufficient funds for the", amt);
+	}
+	else{ 
+		checking = checking - amt;
+		console.log("withdraw", amt, "new balance", checking);
+	}	
 	return checking;
 }
 
