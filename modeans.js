@@ -1,7 +1,7 @@
 /*
  * loop for multiple fires
 */
-
+// Day 3
 var fire = 1;
 var ai = false;
 while (fire < 11) {

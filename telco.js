@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // banking progtram
 //day 5
 
@@ -35,3 +36,23 @@ isWithdraw(35);
 //}
 
 
+=======
+var checking = 10;
+function deposit(amt) {
+	checking = checking + amt;
+	console.log("deposit", amt, "new balance", checking);
+	return checking;
+}
+function withdraw(amt) {
+	checking = checking - amt;
+	console.log("withdraw", amt, "new balance", checking);
+	return checking;
+}
+
+deposit(300);
+withdraw(100);
+deposit(2000);
+withdraw(600);
+deposit(45);
+withdraw(3000);
+>>>>>>> aaf8d502e384d6ea4714ae418ef3c53401c8f479
