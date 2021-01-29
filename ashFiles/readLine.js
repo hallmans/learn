@@ -2,8 +2,7 @@
 // Day 15
 
 const { resolve } = require('path');
-const readline = require('readline');
-const rl = readline.createInterface({
+const readline = require('readline'); const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
@@ -14,7 +13,6 @@ function promisedPrompt(message) {
   return new Promise((resolve, reject) => {
     rl.question(message, function (answer) {
       resolve(answer);
-      rl.close();
     });
   });
 }
@@ -28,7 +26,11 @@ promisedPrompt('What is your first name?')
   .then((answer) => {
     name.push(answer);
     console.log('Hello', name);
-  })
+   })
+   .then(() => {
+	rl.close();
+   })
   .catch((error) => {
     console.log('  >>>> ERROR!!!', error);
   });
+
